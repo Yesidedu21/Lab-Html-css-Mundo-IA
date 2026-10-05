@@ -1,0 +1,10 @@
+:root {
+  --noche: #0a0f2c;
+  --violeta: #6d4aff;
+  --cian: #2ee6d6;
+  --magenta: #ff4fa3;
+  --texto: #e8ebff;
+  --texto-suave: #a9b0d6;
+  --vidrio: rgba(255, 255, 255, 0.06);
+  --borde: rgba(255, 255, 255, 0.14);
+}
