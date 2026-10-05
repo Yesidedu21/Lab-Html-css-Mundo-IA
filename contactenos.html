@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contáctenos | Mundo IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="inicio.html" class="logo" aria-label="Mundo IA, ir al inicio">
+      <span class="logo-marca">IA</span>
+      <span>Mundo IA</span>
+    </a>
+
+    <nav aria-label="Principal">
+      <ul class="menu">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="nosotros.html">Quiénes somos</a></li>
+        <li><a href="contactenos.html" class="activo">Contáctenos</a></li>
+      </ul>
+    </nav>
+
+    <a href="#" class="login" aria-label="Iniciar sesión">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/>
+      </svg>
+    </a>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h1>Escríbenos</h1>
+      <p>Déjanos tus datos y tu mensaje, y te responderemos lo antes posible.</p>
+
+      <form class="formulario" action="#" method="post">
+        <div class="campo">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="Tu número de contacto">
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos qué necesitas" required></textarea>
+        </div>
+
+        <button type="submit" class="boton">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Creado por Yesid Hernandez · Página creada en 2026</p>
+  </footer>
+
+</body>
+</html>
